@@ -3,13 +3,13 @@
 # Import the necessary libraries for the game
 from random import randint
 
-# Setting up the playing board (or ocean)
+# Setting up the playing board
 board = []
 
 for x in range(0, 5):
     board.append(["O"] * 5)
 
-#Aligning the board into an evenly spaced 5x5 grid
+# Aligning the board into an evenly spaced 5x5 grid
 def print_board(board):
     for row in board:
         print " ".join(row)
